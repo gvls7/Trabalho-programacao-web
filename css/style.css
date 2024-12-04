@@ -1,0 +1,94 @@
+/* Formatação genérica da página */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* Formatação de texto do header (Cabeçalho da página) e do menu */
+header {
+    text-align: center;
+    background-color: #1b3238;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+/* Formatação da lista e dos elementos da lista */
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #1b3238;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    background-color: #577178;
+}
+
+/* Formatação do conteúdo principal da página */
+main {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main a img{
+    display: block;
+    object-fit: contain;
+}
+
+main p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Formatação do rodapé da página */
+footer {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #1b3238;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Formatação do formulário (Somente na página de contato) */
+form{
+    font-size: 15px;
+}
+
+/* Formatação por id dos textos da página de portfólio */
+#linkimg{
+    margin: 0;
+}
+
+#observacao{
+    text-align: left;
+    font-size: 10px;
+}
